@@ -1,0 +1,172 @@
+
+
+body {
+
+    background: skyblue;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 95vh;
+
+    flex-direction: inherit;
+
+}
+
+*{
+
+    font-family: initial;
+
+    box-sizing: initial;
+
+}
+
+form {
+
+    width: 400px;
+
+    border: 3px solid rgb(177, 142, 142);
+
+    padding: 20px;
+
+    background: rgb(42, 27, 27);
+
+    border-radius: 20px;
+
+}
+
+h2 {
+
+    text-align: center;
+
+    margin-bottom: 2px;
+
+}
+
+input {
+
+    display: table-row;
+
+    border: 2px solid #ccc;
+
+    width: 95%;
+
+    padding: 2px;
+
+    margin: 5px auto;
+
+    border-radius: 5px;
+
+}
+
+label {
+
+    color: orange;
+
+    font-size: 18px;
+
+    padding: 10px;
+
+}
+
+button {
+
+    float: right;
+
+    background: rgb(35, 50, 100);
+
+    padding: 10px;
+
+    color: mintcream;
+
+    border-radius: 5px;
+
+    margin-right: 10px;
+
+    border: none;
+
+}
+
+button:hover{
+
+    opacity: .10;
+
+}
+
+.error {
+
+   background: #blue;
+
+   color: #0c0101;
+
+   padding: 10px;
+
+   width: 95%;
+
+   border-radius: 5px;
+
+   margin: 20px auto;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    color: rgb(134, 3, 3);
+
+}
+
+a {
+
+    float: right;
+
+    background: rgb(183, 225, 233);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 10px;
+
+    margin-right: 10px;
+
+    border: none;
+
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    opacity: .7;
+
+}
+ .dropdown { width: 30px;     /* customize Select tag(DropDown options) with id="alphalist" */
+             display: inline-block;
+             background-color: #F5F5F5;
+             border-radius: 10px;
+             outline: none;
+             transition: all .5s ease;
+             position: relative;
+             vertical-align: center;
+             font-size: 15px;
+             color: black;
+             height: 30px;
+           } 
+
+ input { border: 0;
+         background-color: #F5F5F5;
+         border-radius: 10px;
+         -webkit-appearance: none;
+         -moz-appearance: none;
+         -ms-appearance: none;
+         -o-appearance: none;
+         appearance: none;
+         text-align: left;
+         width: 100%;
+         height: 32px;        
+       }
